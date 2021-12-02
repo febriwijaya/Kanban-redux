@@ -1,0 +1,48 @@
+.Container-box {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.column {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  min-width: 275px;
+}
+
+input[type="text"] {
+  width: 500px;
+  height: 100%;
+  border: 1px solid #6e776e;
+  border-radius: 4px;
+  margin: 0 8px;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 992px) {
+  .Container-box {
+    flex-direction: column;
+  }
+
+  .column {
+    min-width: 60vw;
+  }
+}
+
+
+.Backlog {
+  background-color: #b0beb0;
+}
+
+.Progress {
+  background-color: #fca044;
+}
+
+.Evaluation {
+  background-color: #88ddff;
+}
+
+.Done {
+  background-color: #66cc33;
+}
